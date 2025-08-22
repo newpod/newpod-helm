@@ -14,6 +14,7 @@ spec:
   source:
     repoURL: https://github.com/newpod/newpod-helm.git
     targetRevision: main
+    path: .
     helm:
       releaseName: newpod
       values: |
