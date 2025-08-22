@@ -1,0 +1,6 @@
+apiVersion: v2
+name: newpod
+description: A Helm chart to deploy a new pod with.
+type: application
+version: 0.1.0
+appVersion: "v0.2.0"

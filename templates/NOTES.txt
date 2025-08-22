@@ -1,0 +1,8 @@
+Thank you for installing {{ .Chart.Name }}.
+
+Your newpod release is named {{ .Release.Name }}.
+
+To learn more about the newpod release, try:
+
+  $ helm status {{ .Release.Name }}
+  $ helm get all {{ .Release.Name }}
